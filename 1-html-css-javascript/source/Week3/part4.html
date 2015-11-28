@@ -1,0 +1,121 @@
+<html>
+<head>
+	<title>Matching Game</title>
+	<style type="text/css">
+		img, div {
+			position: absolute;
+		}
+		#header {
+			width: 1000px;
+			text-align: center;
+		}
+		#leftside {
+			top: 150px;
+			width: 500px;
+			height: 500px;
+		}
+		#rightside {
+			top: 150px;
+			width: 500px;
+			height: 500px;
+			margin-left: 500px;
+			border-left: 1px solid black;
+		}
+	</style>
+	<script type="text/javascript">
+		var numberOfFaces = 5;
+		var img_src = "http://home.cse.ust.hk/~rossiter/mooc/matching_game/smile.png";
+		
+		/**
+		 * Delete all child nodes to the given node.
+		 */
+		function deleteAll(theParent){
+			while ( theParent.hasChildNodes()){
+				theParent.removeChild( theParent.lastChild);
+			}
+		}
+		/**
+		 * Generate a random number from 0 to range-paramenter
+		 * @param  int range Upper bounds of random number
+		 * @return int       The generated number
+		 */
+		function randomWithMax(range){
+			return Math.floor( Math.random()*range );
+		}
+		/**
+		 * Create an image positioned with a 0-400 top & left position.
+		 * @return img-element The generated image
+		 */
+		function createRandomPositionedImage() {
+			var hPos = randomWithMax(400);
+			var vPos = randomWithMax(400);
+			var theImage = document.createElement("img");
+			theImage.src = img_src;
+			theImage.style.left=hPos;
+			theImage.style.top=vPos;
+			return theImage;
+		}
+		/**
+		 * Generate the smiling-face images (numberOfFaces of them)
+		 * @param  {[type]} theDiv The div to add the images to
+		 * @return no return value
+		 */
+ 		function generateFaces(theDiv){
+ 			for (var i =0 ; i < numberOfFaces; i++) {
+				theDiv.appendChild( createRandomPositionedImage() );
+ 			};
+		}
+		/**
+		 * Play the game
+		 * @return {[type]} [description]
+		 */
+		function playGame(){
+			var theBody = document.getElementsByTagName("body")[0];
+			var theLeftSide = document.getElementById("leftside");
+			var theRightSide = document.getElementById("rightside");
+
+			/* *************************
+			 * clean up from earlier run
+			 * *************************/
+			deleteAll(theLeftSide);
+			deleteAll(theRightSide);
+
+			/* *************************
+			 * Generate the left side
+			 * *************************/
+			generateFaces(theLeftSide);
+
+			/* *************************
+			 * Generate the right side
+			 * *************************/
+			var theClone = theLeftSide.cloneNode(true);
+			theClone.removeChild(theClone.lastChild);
+			theClone.id = "theClone";
+			theRightSide.appendChild(theClone);
+
+			/* *************************
+			 *   Setup click events
+			 * *************************/
+			theBody.onclick = function gameOver(){
+				event.stopPropagation();
+				theBody.onclick = null;
+				theLeftSide.lastChild.onclick = null;
+				alert("Game over");
+			}
+			theLeftSide.lastChild.onclick = function nextLevel(){
+				event.stopPropagation();
+				numberOfFaces += 5;
+				playGame();
+			}
+		}
+	</script>
+</head>
+<body onload="playGame();">
+	<div id="header">
+		<h1>Matching Game</h1>
+		<p>Click on the extra smiling face on the left</p>
+	</div>
+	<div id="leftside"></div>
+	<div id="rightside"></div>
+</body>
+</html>

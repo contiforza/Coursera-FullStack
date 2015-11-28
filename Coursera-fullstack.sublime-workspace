@@ -1,0 +1,607 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"stop",
+				"stopPropagation()	Event"
+			],
+			[
+				"has",
+				"hasChildNodes()	Node"
+			],
+			[
+				"del",
+				"delete(${0:Object})	Object"
+			],
+			[
+				"last",
+				"lastChild	Node"
+			],
+			[
+				"numberOfF",
+				"numberOfFaces"
+			],
+			[
+				"top",
+				"top	Window"
+			],
+			[
+				"sty",
+				"style	Style CSS"
+			],
+			[
+				"getEle",
+				"getElementById(${0:id})	Element"
+			],
+			[
+				"getE",
+				"getElementById(${0:id})	Element"
+			],
+			[
+				"p",
+				"p"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"bo",
+				"border-left"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"div",
+				"div"
+			],
+			[
+				"O",
+				"ORAPWD"
+			],
+			[
+				"lorem",
+				"lorem	Lorem ipsum"
+			],
+			[
+				"if",
+				"ife	if … else"
+			],
+			[
+				"con",
+				"console.log('$0');"
+			],
+			[
+				"show_",
+				"show_part2"
+			],
+			[
+				"l",
+				"length	String"
+			],
+			[
+				"guess",
+				"guess_input"
+			],
+			[
+				"tex",
+				"textarea"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"fiel",
+				"fieldset	Tag"
+			],
+			[
+				"label",
+				"label	Tag"
+			],
+			[
+				"la",
+				"label	Tag"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"f",
+				"for"
+			],
+			[
+				"form",
+				"form"
+			],
+			[
+				"lore",
+				"lorem-long	Lorem ipsum"
+			],
+			[
+				"ctl",
+				"ctrl"
+			],
+			[
+				"Bit",
+				"Bitch"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/User/Chrome-view.sublime-build",
+	"command_palette":
+	{
+		"height": 265.0,
+		"selected_items":
+		[
+			[
+				"ssj",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ssh",
+				"Set Syntax: HTML"
+			],
+			[
+				"ssp",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"gist",
+				"Gist: Embed as script"
+			],
+			[
+				"ssht",
+				"Set Syntax: HTML"
+			],
+			[
+				"sshtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"markd",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markpre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"sscss",
+				"Set Syntax: CSS"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"ssjava",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"setting",
+				"Preferences: Settings - Default"
+			],
+			[
+				"ending",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"ss: bas",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"ssba",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"ssb",
+				"Set Syntax: Batch File"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 241.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Source/Coursera-FullStack/1-html-css-javascript/source/Week3/part4.html",
+		"/C/Source/Coursera-FullStack/1-html-css-javascript/source/Week3/part3.html",
+		"/C/Source/Coursera-FullStack/1-html-css-javascript/source/Week3/part2.html",
+		"/C/Users/micha_000/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Source/Coursera-FullStack/1-html-css-javascript/source/Week2/part2.html",
+		"/C/Users/micha_000/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/micha_000/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/micha_000/Documents/t.html",
+		"/C/Users/micha_000/tnsnames.ora",
+		"/C/Users/micha_000/bin/sublime",
+		"/c/Source/utils.git-store/BatchUtilities/nixBin/setup-bash",
+		"/C/Source/utils.git-store/BatchUtilities/nixBin/ora.sh",
+		"/C/Users/micha_000/AppData/Local/Temp/ora-dict.20924",
+		"/C/Source/utils.git-store/BatchUtilities/oracle/dc.sql",
+		"/C/Users/micha_000/AppData/Local/Temp/ora-dict.14960",
+		"/C/Users/micha_000/AppData/Local/Temp/ora-dict.16564",
+		"/C/Users/micha_000/AppData/Local/Temp/ora-dict.18032",
+		"/C/Users/micha_000/AppData/Local/Temp/ora-dict.18400",
+		"/C/Users/micha_000/AppData/Local/Temp/ora-dict.14652",
+		"/C/Users/micha_000/AppData/Local/Temp/ora-dict.14008",
+		"/C/Users/micha_000/AppData/Local/Temp/ora-dict.20572",
+		"/C/Users/micha_000/Desktop/my-tasks.todo",
+		"/C/Users/micha_000/Desktop/test.html",
+		"/C/Users/micha_000/AppData/Roaming/Sublime Text 2/Packages/PlainTasks/messages/Tutorial.todo",
+		"/C/Users/micha_000/AppData/Roaming/Sublime Text 2/Packages/PlainTasks/PlainTasks.py",
+		"/C/Users/micha_000/AppData/Roaming/Sublime Text 2/Packages/PlainTasks/messages/install.txt",
+		"/C/Users/micha_000/AppData/Roaming/Sublime Text 2/Packages/SublimeLinter/README.md",
+		"/C/Users/micha_000/AppData/Roaming/Sublime Text 2/Packages/Gist/Gist.sublime-settings",
+		"/c/users/micha_~1/appdata/local/temp/gistfile1.txt",
+		"/C/Users/micha_000/AppData/Roaming/Sublime Text 2/Packages/User/JavaScript/new-script-include.sublime-snippet",
+		"/C/Source/Coursera-FullStack/1-html-css-javascript/source/Week2/part1.html",
+		"/C/Users/MICHA_~1/AppData/Local/Temp/7zE04A27122/01_html_guessing_game.html",
+		"/C/Users/MICHA_~1/AppData/Local/Temp/7zE04A27122/01_js_guessing_game.js",
+		"/C/Source/Coursera-FullStack/1-html-css-javascript/course-materials/unpack/Presentation_Notes_and_Examples/02_Introduction_to_JavaScript/2-06_an_example_javascript_project_guessing_game/06_an_example_javascript_project_guessing_game/2-6-01_an_example_javascript_project/01_html_guessing_game.html",
+		"/C/Source/Coursera-FullStack/1-html-css-javascript/course-materials/unpack/Presentation_Notes_and_Examples/02_Introduction_to_JavaScript/2-06_an_example_javascript_project_guessing_game/06_an_example_javascript_project_guessing_game/2-6-01_an_example_javascript_project/01_js_guessing_game.js",
+		"/C/Source/Coursera-FullStack/1-html-css-javascript/course-materials/01_HTML_and_CSS.zip",
+		"/C/Source/Coursera-FullStack/2-Introduction-to-JavaScript/source/test.html",
+		"/C/Source/Coursera-FullStack/1-html-css-javascript/course-materials/01_HTML_and_CSS/1-05_grouping/05_grouping/1-5-1_element_grouping/01_html_example_form_fieldset_legend01.html",
+		"/C/Source/Coursera-FullStack/2-Introduction-to-JavaScript/course-materials/Presentation_Notes_and_Examples/02_Introduction_to_JavaScript/2-02_basics_of_javascript/02_basics_of_javascript/2-2-2_introduction_to_events_and_functions/01_onload_event.html",
+		"/C/Source/Coursera-FullStack/2-Introduction-to-JavaScript/course-materials/Presentation_Notes_and_Examples/02_Introduction_to_JavaScript/2-02_basics_of_javascript/02_basics_of_javascript/2-2-2_introduction_to_events_and_functions/02_onload_event2.html",
+		"/C/Source/Coursera-FullStack/2-Introduction-to-JavaScript/course-materials/Presentation_Notes_and_Examples/02_Introduction_to_JavaScript/2-02_basics_of_javascript/02_basics_of_javascript/2-2-2_introduction_to_events_and_functions/03_function_simple.html",
+		"/C/Source/Coursera-FullStack/2-Introduction-to-JavaScript/course-materials/Presentation_Notes_and_Examples/02_Introduction_to_JavaScript/2-02_basics_of_javascript/02_basics_of_javascript/2-2-2_introduction_to_events_and_functions/04_function2.html",
+		"/C/Source/Coursera-FullStack/2-Introduction-to-JavaScript/course-materials/Presentation_Notes_and_Examples/02_Introduction_to_JavaScript/2-02_basics_of_javascript/02_basics_of_javascript/2-2-2_introduction_to_events_and_functions/05_function_recursive.html",
+		"/C/Source/Coursera-FullStack/2-Introduction-to-JavaScript/course-materials/Presentation_Notes_and_Examples/03_Advanced_JavaScript/3-04_more_on_events/3-04_more_on_events/3-4-03_adding_events_using_javascript/01_add_event_js1.html",
+		"/C/Source/Coursera-FullStack/2-Introduction-to-JavaScript/course-materials/Presentation_Notes_and_Examples/03_Advanced_JavaScript/3-04_more_on_events/3-04_more_on_events/3-4-02_timer_events/02_settimeout_image1.html",
+		"/C/Users/micha_000/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/micha_000/AppData/Roaming/Sublime Text 2/Packages/User/dummy.sublime-build",
+		"/C/Users/micha_000/Desktop/a.js",
+		"/C/Source/Coursera-FullStack/1-html-css-javascript/source/Week1/assessment_part3.html",
+		"/C/Source/Coursera-FullStack/1-html-css-javascript/source/Week1/assessment_part2.html",
+		"/C/Source/Coursera-FullStack/1-html-css-javascript/source/Week1/assessment_part1.html",
+		"/C/Source/Coursera-FullStack/1-html-css-javascript/course-materials/01_HTML_and_CSS/1-03_strengthening_your_knowledge_of_html/03_strengthening_your_knowledge_of_html/1-3-5_tables/04_html_example_table_class.html",
+		"/C/Source/Coursera-FullStack/1-html-css-javascript/course-materials/01_HTML_and_CSS/1-03_strengthening_your_knowledge_of_html/03_strengthening_your_knowledge_of_html/1-3-4_more_on_style/02_html_example_css_context.html",
+		"/C/Source/Coursera-FullStack/1-html-css-javascript/course-materials/01_HTML_and_CSS/1-03_strengthening_your_knowledge_of_html/03_strengthening_your_knowledge_of_html/1-3-4_more_on_style/03_html_example_css_pseudo.html",
+		"/C/Users/micha_000/Desktop/bla",
+		"/C/Source/utils.git-store/BatchUtilities/java/util/src/main/java/dk/michael/cmd/handlers/HandlerException.java",
+		"/C/Users/micha_000/AppData/Roaming/Sublime Text 2/Packages/User/lorem-long.sublime-snippet",
+		"/C/Users/micha_000/AppData/Roaming/Sublime Text 2/Packages/User/lorem.sublime-snippet",
+		"/C/Users/micha_000/AppData/Roaming/Sublime Text 2/Packages/User/lorem-short.sublime-snippet",
+		"/C/Users/micha_000/AppData/Roaming/Sublime Text 2/Packages/Text/lorem.sublime-snippet",
+		"/C/Source/utils.git-store/BatchUtilities/nixBin/getopts-example-perl",
+		"/C/Source/utils.git-store/BatchUtilities/nixBin/fav",
+		"/C/Source/utils.git-store/BatchUtilities/nixBin/ctlGlassfish",
+		"/C/Users/micha_000/Documents/Vagrant/gettingStarted/Vagrantfile",
+		"/C/Source/utils.git-store/BatchUtilities/init.d/glassfish",
+		"/C/Users/micha_000/Documents/My Digital Editions/A Dance with Dragons A Song of Ice and Fire Book Five.epub"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"randomWithOffset",
+			"/*",
+			"\n			 ",
+			"\n				",
+			"Range",
+			"random400",
+			"right_side",
+			"left_side",
+			"play_game",
+			"ctrl+up",
+			"+up\"",
+			"\"up\"",
+			"up",
+			"colors",
+			"length",
+			"myColors",
+			"colors",
+			"Colors",
+			"part2",
+			"show_hint",
+			"console.log",
+			"guesses",
+			"guess_input",
+			"target",
+			"target_number",
+			"theGuess",
+			"target",
+			"guess_input",
+			"100",
+			" ",
+			"\\",
+			"http",
+			"auto-width",
+			"auto-widt",
+			"auto",
+			"\n			",
+			"}\n",
+			"auto",
+			"number",
+			"radio",
+			"text",
+			"xrequired",
+			"mobile",
+			"Mobile",
+			"mobile",
+			"fieldset",
+			"required",
+			"sex",
+			"defee",
+			"ctrl",
+			"+up",
+			"up",
+			"ctrl+up",
+			"(?:follo)win",
+			"^(?:follo)win",
+			"~(?follo)win",
+			"^(?follo)win",
+			"win",
+			"windows",
+			"window",
+			"up",
+			"\n	",
+			"keys",
+			"up",
+			"Pitch",
+			"(?:Sw|P)itch",
+			"Switch",
+			"(?:Sw|P)itchoff",
+			"(?:Sw|P)itchofff",
+			"(?:Sw|P)itch",
+			"ch",
+			"(?:Sw|P)itch",
+			"Switch",
+			"(?:P|Sw)itch",
+			"Switch",
+			"(?:Sw|P)i(?:tch|s{2})\\s(it\\s)?of{2}!",
+			"(?:B|Sw|P)i(?:tch|s{2})\\s(it\\s)?of{2}!",
+			"(?:Sw|P)i(?:tch|s{2})\\s(it\\s)?of{2}!",
+			"(?:Sw|P)i(?:tch|s{2})\\s(?:it\\s)?of{2}!",
+			"escape",
+			"if",
+			"a",
+			"sadsadsad",
+			"dolor",
+			"consectetur",
+			"ut",
+			"Ut",
+			"aute",
+			"Duis",
+			"consequat",
+			"commodo",
+			"ea",
+			"ex",
+			"aliquip",
+			"ut",
+			"nisi",
+			"laboris",
+			"ullamco",
+			"exercitation",
+			"nostrud",
+			"quis",
+			"veniam",
+			"minim",
+			"ad",
+			"enim",
+			"Ut",
+			"aliqua",
+			"magna",
+			"dolore",
+			"et",
+			"labore",
+			"ut",
+			"incididunt",
+			"tempor",
+			"eiusmod",
+			"do",
+			"sed",
+			"elit",
+			"adipisicing",
+			"consectetur",
+			"amet",
+			"ipsum",
+			"fdfsd",
+			"dfeeedddfe",
+			"dfsdf",
+			"dfeefedddddfe",
+			"dsfsfddsfsfd",
+			"sfsfddsfsf"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Blit"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 63.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"source/Week2/part1.html"
+			],
+			[
+				"dem",
+				"dem"
+			],
+			[
+				"med",
+				"med"
+			],
+			[
+				"bemk",
+				"Bemk"
+			],
+			[
+				"cgfsh",
+				"/C/Source/utils.git-store/BatchUtilities/nixBin/ctlGlassfish"
+			],
+			[
+				"presk",
+				"/C/Users/micha_000/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap"
+			],
+			[
+				"ps-k",
+				"/C/Users/micha_000/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 149.0,
+	"status_bar_visible": true
+}

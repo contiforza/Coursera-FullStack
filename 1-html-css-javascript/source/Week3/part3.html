@@ -1,0 +1,70 @@
+<html>
+<head>
+	<title>Matching Game</title>
+	<style type="text/css">
+		img, div {
+			position: absolute;
+		}
+		#header {
+			width: 1000px;
+			text-align: center;
+		}
+		#leftside {
+			top: 150px;
+			width: 500px;
+			height: 500px;
+		}
+		#rightside {
+			top: 150px;
+			width: 500px;
+			height: 500px;
+			margin-left: 500px;
+			border-left: 1px solid black;
+		}
+	</style>
+	<script type="text/javascript">
+
+	/* Note:
+	 * COMMENTS only in finished version (part4) only
+	 */
+
+		var numberOfFaces = 5;
+		var img_src = "http://home.cse.ust.hk/~rossiter/mooc/matching_game/smile.png";
+		
+		function randomWithMax(range){
+			return Math.floor( Math.random()*range );
+		}
+		function createRandomPositionedImage() {
+			var hPos = randomWithMax(400);
+			var vPos = randomWithMax(400);
+			var theImage = document.createElement("img");
+			theImage.src = img_src;
+			theImage.style.left=hPos;
+			theImage.style.top=vPos;
+			return theImage;
+		}
+ 		function generateFaces(theDiv){
+ 			for (var i =0 ; i < numberOfFaces; i++) {
+				theDiv.appendChild( createRandomPositionedImage() );
+ 			};
+		}
+		function playGame(){
+			var theLeftSide = document.getElementById("leftside");
+			var theRightSide = document.getElementById("rightside");
+			generateFaces(theLeftSide);
+			var theClone = theLeftSide.cloneNode(true);
+			theClone.removeChild(theClone.lastChild);
+			theClone.id = "theClone";
+			theRightSide.appendChild(theClone);
+		}
+	</script>
+</head>
+<body onload="playGame();">
+	<div id="header">
+		<h1>Matching Game</h1>
+		<p>Click on the extra smiling face on the left</p>
+	</div>
+	<div id="leftside"></div>
+	<div id="rightside"></div>
+</body>
+</html>

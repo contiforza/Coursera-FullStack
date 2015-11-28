@@ -1,0 +1,83 @@
+<html>
+<head>
+	<title></title>
+	<script>
+		var colors_unsorted = [ 'blue', 'cyan', 'gray', 'magenta', 'orange', 'red', 'white','yellow'];
+
+		function do_game() {
+			var colors = colors_unsorted.sort();
+		    var target = Math.floor( Math.random() * colors.length);
+			var target;            
+			var guess_input_text;   
+			var guess_input;      
+			var finished = false;   
+			var guesses = 0;
+			var show_cheat = true;
+			var show_part2 = true; 
+			// Using the same source for part 1 & 2. Only diffence is value of "show_part2".
+			// This could have been enabled using: var show_part2 = "confirm("Press OK to enable Part 2")";
+
+		    while (!finished) {
+		        guess_input_text = prompt(
+		        							(show_cheat
+		        								? "-------------------\n"
+		        									+ "CHEAT ENABLED\nTarget is "
+			        								+ colors[target] 
+			        								+ "\n"
+			        								+ "-------------------\n\n" 
+		        								: "")
+		        						+ "I am thinking of one of the following colors: \n\n "
+		                                +  colors.join(", ") + "\n\n" 
+		                                +  "What color am I thinking off?" 
+		                                );
+		        if (guess_input_text == "###"){
+		        	// hack to stop the alerts. You can't open developer tools with a modal window open
+		        	finished=true;continue;
+		        }
+		        guess_input = colors.sort().indexOf(guess_input_text);
+				guesses += 1;   
+		        finished = check_guess(colors, guess_input,target,guesses,show_part2); 
+		    }
+		}
+
+		function check_guess(myColors,myGuess,myTarget,myGuessCount,isPart2) {
+			console.log("myColors 0 " + myColors);
+			console.log("myGuess = " + myGuess);
+			console.log("myTarget = " + myTarget);
+			console.log("myGuessCount = " + myGuessCount);
+			console.log("isPart2 = " + isPart2);
+		    if ((myGuess == -1)) {
+		    	alert("Sorry I don't recognize your color. Please try again..");
+		        return false;
+		    }
+		    if (myGuess < myTarget) {
+		    	if (isPart2) {
+			    	alert("Sorry your guess is not correct." 
+			    		+ "\n\nHint: your color is alphabetically lower than mine"
+			    		);
+		    	}
+		        return false;
+		    }
+		    if (myGuess > myTarget) {
+		    	if (isPart2){
+			    	alert("Sorry your guess is not correct."
+			    		+
+			    		"\n\nHint: your color is alphabetically higher than mine"
+			    		);
+		    	}
+		        return false;
+		    }
+		    if (isPart2){
+			    var myBody = document.getElementsByTagName("body")[0];
+			    myBody.style.background=myColors[myTarget];
+			    alert("You got it! The color was " + myColors[myTarget] + 
+			          ".\n\nIt took you " + myGuessCount + " guesses to get the color!");
+		    }
+		    return true;   
+		}		
+	</script>
+</head>
+<body onload="do_game();">
+
+</body>
+</html>
