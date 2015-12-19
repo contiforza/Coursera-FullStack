@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"bs3-co",
+				"bs3-col:12	bs3-col-12"
+			],
+			[
+				"bs3-c",
+				"bs3-carousel	bs3-carousel"
+			],
+			[
+				"bs3-tab",
+				"bs3-tabs	bs3-tabs"
+			],
+			[
 				"bs3-col",
 				"bs3-col:4	bs3-col-4"
 			],
@@ -192,26 +204,26 @@
 	"buffers":
 	[
 		{
-			"file": "2-Front-End-Web-UI/conFusion/index.html",
-			"settings":
-			{
-				"buffer_size": 15869,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "2-Front-End-Web-UI/conFusion/aboutus.html",
 			"settings":
 			{
-				"buffer_size": 14910,
+				"buffer_size": 20509,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "2-Front-End-Web-UI/conFusion/contactus.html",
+			"file": "2-Front-End-Web-UI/conFusion/index.html",
 			"settings":
 			{
-				"buffer_size": 13842,
+				"buffer_size": 16517,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "2-Front-End-Web-UI/conFusion/css/mystyles.css",
+			"settings":
+			{
+				"buffer_size": 1509,
 				"line_ending": "Windows"
 			}
 		}
@@ -223,10 +235,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 242.0,
-		"last_filter": "",
+		"height": 150.0,
+		"last_filter": "Package Control: in",
 		"selected_items":
 		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
 			[
 				"instal",
 				"Package Control: Install Package"
@@ -250,10 +266,6 @@
 			[
 				"ss",
 				"Set Syntax: HTML"
-			],
-			[
-				"Package Control: in",
-				"Package Control: Install Package"
 			],
 			[
 				"Package Control: ",
@@ -344,7 +356,7 @@
 				"Set Syntax: Batch File"
 			]
 		],
-		"width": 400.0
+		"width": 424.0
 	},
 	"console":
 	{
@@ -378,15 +390,23 @@
 	],
 	"file_history":
 	[
-		"/C/Source/Coursera-FullStack/2-Front-End-Web-UI/conFusion/css/mystyles.css",
+		"/C/Users/micha_000/AppData/Roaming/Sublime Text 3/Installed Packages/CSS3.sublime-package",
+		"/C/Users/micha_000/AppData/Roaming/Sublime Text 3/Packages/Tag/Tag Package.sublime-settings",
 		"/C/Users/micha_000/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/Default (Windows).sublime-keymap",
+		"/C/Users/micha_000/AppData/Roaming/Sublime Text 3/Packages/User/Tag Package.sublime-settings",
 		"/C/Users/micha_000/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Source/Coursera-FullStack/2-Front-End-Web-UI/conFusion/aboutus.html",
+		"/C/Users/micha_000/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/micha_000/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/micha_000/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Source/Coursera-FullStack/2-Front-End-Web-UI/conFusion/index.html",
+		"/C/Source/Coursera-FullStack/2-Front-End-Web-UI/conFusion/contactus.html",
+		"/C/Source/Coursera-FullStack/2-Front-End-Web-UI/conFusion/css/mystyles.css",
 		"/C/Users/micha_000/Desktop/XPS 15 9530",
 		"/C/Source/Coursera-FullStack/2-Front-End-Web-UI/aboutus.html",
 		"/C/Source/Coursera-FullStack/2-Front-End-Web-UI/Week1/conFusion/css/mystyles.css",
 		"/C/Source/Coursera-FullStack/2-Front-End-Web-UI/Week1/conFusion/index.html",
 		"/C/Source/Coursera-FullStack/2-Front-End-Web-UI/Week1/conFusion/aboutus.html",
-		"/C/Users/micha_000/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
 		"/C/Source/Coursera-FullStack/2-Front-End-Web-UI/Week1/conFusion/t.html",
 		"/C/Users/micha_000/Documents/t.html",
 		"/C/Users/micha_000/AppData/Roaming/Sublime Text 3/Packages/User/Bootstrap/my-bs3-start.sublime-snippet",
@@ -460,7 +480,7 @@
 	],
 	"find":
 	{
-		"height": 56.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -474,6 +494,24 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			" style=\"height:200px;\"",
+			"row row-content",
+			"Sign I",
+			"data-toggle",
+			"Reser",
+			"dd",
+			"headingDD",
+			"<p>",
+			"dd",
+			"headingDD",
+			"dd",
+			"in\"",
+			" in ",
+			"Corp",
+			"folder",
+			"file",
+			"open",
+			"Corpo",
 			"		\n",
 			"	•",
 			"Reser",
@@ -583,25 +621,7 @@
 			"consequat",
 			"commodo",
 			"ea",
-			"ex",
-			"aliquip",
-			"ut",
-			"nisi",
-			"laboris",
-			"ullamco",
-			"exercitation",
-			"nostrud",
-			"quis",
-			"veniam",
-			"minim",
-			"ad",
-			"enim",
-			"Ut",
-			"aliqua",
-			"magna",
-			"dolore",
-			"et",
-			"labore"
+			"ex"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -620,56 +640,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "2-Front-End-Web-UI/conFusion/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 15869,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8333,
-								8338
-							]
-						],
-						"settings":
-						{
-							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3079.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "2-Front-End-Web-UI/conFusion/aboutus.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14910,
+						"buffer_size": 20509,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4250,
-								4250
+								2487,
+								2487
 							]
 						],
 						"settings":
@@ -681,7 +669,39 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 910.0,
+						"translation.y": 5075.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "2-Front-End-Web-UI/conFusion/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16517,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7074,
+								7074
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3168.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -689,34 +709,32 @@
 				},
 				{
 					"buffer": 2,
-					"file": "2-Front-End-Web-UI/conFusion/contactus.html",
+					"file": "2-Front-End-Web-UI/conFusion/css/mystyles.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13842,
+						"buffer_size": 1509,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10109,
-								10206
+								1379,
+								1379
 							]
 						],
 						"settings":
 						{
-							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": false
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3804.0,
+						"translation.y": 1062.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -724,7 +742,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 30.0
 	},
 	"input":
 	{
@@ -765,7 +783,7 @@
 	"project": "Coursera-fullstack.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 56.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -774,6 +792,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"css",
+				"conFusion\\css\\mystyles.css"
+			],
 			[
 				"abou",
 				"aboutus.html"
@@ -824,12 +846,12 @@
 	},
 	"select_symbol":
 	{
-		"height": 0.0,
+		"height": 392.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 392.0
 	},
 	"selected_group": 0,
 	"settings":
@@ -838,7 +860,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 143.0,
 	"status_bar_visible": true,
 	"template_settings":
