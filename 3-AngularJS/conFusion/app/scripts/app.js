@@ -65,5 +65,5 @@ angular.module('confusionApp', [])
             };
             $scope.toggleDetails = function(){
               $scope.showDetails = !$scope.showDetails;
-            }
+            };
         }]);
